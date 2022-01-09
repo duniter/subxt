@@ -1,5 +1,6 @@
 [workspace]
 
+default-members = ["cli", "subxt"]
 members = [
     "cli",
     "codegen",
