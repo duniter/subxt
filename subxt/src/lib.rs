@@ -248,6 +248,7 @@ pub use crate::{
         Client,
         ClientBuilder,
         SubmittableExtrinsic,
+        SignedSubmittableExtrinsic
     },
     config::{
         Config,
