@@ -23,9 +23,9 @@ futures = "0.3.27"
 hex = "0.4.3"
 regex = "1.7.3"
 scale-info = { version = "2.5.0", features = ["bit-vec"] }
-sp-core = { version = "20.0.0", default-features = false }
-sp-runtime = "23.0.0"
-sp-keyring = "23.0.0"
+sp-core = { git = "https://github.com/duniter/substrate", branch = "duniter-substrate-v0.9.42", package = "sp-core", default-features = false  }
+sp-runtime = { git = "https://github.com/duniter/substrate", branch = "duniter-substrate-v0.9.42", package = "sp-runtime" }
+sp-keyring = { git = "https://github.com/duniter/substrate/", branch = "duniter-substrate-v0.9.42" }
 syn = "1.0.109"
 subxt = { version = "0.28.0", path = "../../subxt" }
 subxt-codegen = { version = "0.28.0", path = "../../codegen" }
