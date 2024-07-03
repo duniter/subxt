@@ -132,10 +132,10 @@ instant = { version = "0.1.13", default-features = false }
 tokio-util = "0.7.11"
 
 # Substrate crates:
-sp-core = { version = "31.0.0", default-features = false }
-sp-crypto-hashing = { version = "0.1.0", default-features = false }
-sp-runtime = "34.0.0"
-sp-keyring = "34.0.0"
+sp-core = { git = "https://github.com/duniter/duniter-polkadot-sdk", branch = "duniter-substrate-v1.16.0", default-features = false }
+sp-crypto-hashing = { git = "https://github.com/duniter/duniter-polkadot-sdk", branch = "duniter-substrate-v1.16.0", default-features = false }
+sp-runtime = { git = "https://github.com/duniter/duniter-polkadot-sdk", branch = "duniter-substrate-v1.16.0" }
+sp-keyring = { git = "https://github.com/duniter/duniter-polkadot-sdk", branch = "duniter-substrate-v1.16.0" }
 
 # Subxt workspace crates:
 subxt = { version = "0.37.0", path = "subxt", default-features = false }
